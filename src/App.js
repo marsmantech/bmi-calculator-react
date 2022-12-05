@@ -21,13 +21,13 @@ function App() {
       setBmi(bmi.toFixed(1))
 
       if(bmi<18.5){
-        setMessage('You are underweight.')
+        setMessage('You are underweight.Khao pio bsdk.')
       }else if(bmi>=18.5 && bmi<25){
-        setMessage('You are healthy.')
+        setMessage('You are healthy.Thik hai ja aish kr.')
       }else if(bmi>=25 && bmi<30){
-        setMessage('You are overweight.')
+        setMessage('You are overweight.Khana pe thora raham kro bsdk.')
       }else{ 
-        setMessage('You are obese.')
+        setMessage('You are obese.Khana pe thora raham kro bsdk.')
       }
 
     }
